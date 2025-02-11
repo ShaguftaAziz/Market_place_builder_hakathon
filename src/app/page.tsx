@@ -6,14 +6,11 @@ import { client } from '@/sanity/lib/client'
 // import ChefsHero from '@/components/HomePages/ChefsHero'
 import AbountUs from "@/components/AboutUs";
 import Hero from "@/components/Hero";
-import MenuSec from "@/components/MenuSec";
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
 import Review from "@/components/Review";
-import FoodSection from "@/components/FoodSection";
-import BlogPage from "@/components/BlogPages";
 
 export default function Home() {
 
