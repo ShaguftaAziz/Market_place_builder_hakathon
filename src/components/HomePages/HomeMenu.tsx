@@ -65,3 +65,55 @@ const ChooseFromMenu = () => {
             ))}
           </ul>
         </nav>
+
+                {/* Main Content */}
+        <div className="flex flex-col lg:flex-row gap-12 items-center">
+          {/* Featured Image */}
+          <div className="lg:w-1/2">
+            <div className="relative group">
+              <Image
+                src="/HomeManu.png"
+                alt="Featured dish"
+                width={666}
+                height={662}
+                className="w-full max-w-2xl mx-auto rounded-lg transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg" />
+            </div>
+          </div>
+
+          {/* Menu Items Grid */}
+          <div className="lg:w-1/2 grid md:grid-cols-2 gap-6">
+            {/* Left Column */}
+            <div className="space-y-4">
+              {[...Array(4)].map((_, i) => (
+                <MenuItem
+                  key={`left-${i}`}
+                  image="/homeManu1.png"
+                  date="20 Feb 2022"
+                  title="Keep Your Business in restaurant"
+                  price="12.50"
+                />
+              ))}
+            </div>
+
+            {/* Right Column */}
+            <div className="space-y-4">
+              {[...Array(4)].map((_, i) => (
+                <MenuItem
+                  key={`right-${i}`}
+                  image="/homeManu2.png"
+                  date="20 Feb 2022"
+                  title="Keep Your Business in hotel view"
+                  price="14.90"
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ChooseFromMenu;
