@@ -28,3 +28,33 @@ const testimonials = [
   {
     id: 3,
     name: 'John Doe',
+    role: 'Web Developer',
+    image: '/profile3.png',
+    quote: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+    rating: 3,
+  },
+]
+
+export default function TestimonialsSection() {
+  const [currentTestimonial, setCurrentTestimonial] = useState(0)
+  const [isAutoPlaying, setIsAutoPlaying] = useState(true)
+
+  // Auto-advance testimonials
+  useEffect(() => {
+    if (!isAutoPlaying) return
+
+    const timer = setInterval(() => {
+      setCurrentTestimonial((prev) => (prev + 1) % testimonials.length)
+    }, 5000)
+
+    return () => clearInterval(timer)
+  }, [isAutoPlaying])
+
+  const handleTestimonialChange = (index: any) => {
+    setCurrentTestimonial(index)
+    setIsAutoPlaying(false)
+  }
+
+  return (
+    <section className="bg-gradient-to-br from-black to-gray-900 text-white py-16 md:py-24 relative overflow-hidden">
+      <div className="container mx-auto px-4 max-w-4xl">
