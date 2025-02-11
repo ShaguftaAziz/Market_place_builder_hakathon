@@ -13,7 +13,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Review from "@/components/Review";
 import FoodSection from "@/components/FoodSection";
-import BlogPage from "@/components/BlogPage";
+import BlogPage from "@/components/BlogPages";
 
 export default function Home() {
 
