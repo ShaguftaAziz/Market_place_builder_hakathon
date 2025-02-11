@@ -6,12 +6,11 @@ import Image from 'next/image';
 const VibeFont = Great_Vibes({ subsets: ['latin'], weight: ['400'] });
 
 const MenuCategories = ['Breakfast', 'Lunch', 'Dinner', 'Dessert', 'Drink', 'Snack', 'Soups'];
-
-interface MenuItemProps {
-  image: string;
-  date: string;
-  title: string;
-  price: string;
+// interface MenuItemProps {
+ // image: string;
+//  date: string;
+//  title: string;
+//  price: string;
 }
 
 const MenuItem: React.FC<MenuItemProps> = ({ image, date, title, price }) => (
@@ -31,11 +30,11 @@ const MenuItem: React.FC<MenuItemProps> = ({ image, date, title, price }) => (
   </li>
 );
 
-const ChooseFromMenu = () => {
-  const menuItems = [
-    { image: '/homeManu1.png', date: '20 Feb 2022', title: 'Keep Your Business in restaurant', price: '12.50' },
-    { image: '/homeManu2.png', date: '20 Feb 2022', title: 'Keep Your Business in hotel view', price: '14.90' },
-  ];
+//const ChooseFromMenu = () => {
+//  const menuItems = [
+//    { image: '/homeManu1.png', date: '20 Feb 2022', title: 'Keep Your Business in restaurant', price: '12.50' },
+//    { image: '/homeManu2.png', date: '20 Feb 2022', title: 'Keep Your Business in hotel view', price: '14.90' },
+//  ];
 
   return (
     <section className="bg-black min-h-screen">
