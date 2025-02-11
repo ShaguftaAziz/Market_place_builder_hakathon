@@ -4,8 +4,6 @@ import FoodCategory from '@/components/HomePages/FoodCategory'
 import OurChefs from '@/components/HomePages/OurChefs'
 import { client } from '@/sanity/lib/client'
 // import ChefsHero from '@/components/HomePages/ChefsHero'
-import AbountUs from "@/components/AboutUs";
-import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
