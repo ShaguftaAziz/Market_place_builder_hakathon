@@ -115,4 +115,4 @@ const MenuItem: React.FC<MenuItemProps> = ({ image, date, title, price }) => (
   );
 };
 
-export default ChooseFromMenu;
+export default HomeMenu;
