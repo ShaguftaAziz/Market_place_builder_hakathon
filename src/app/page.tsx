@@ -4,7 +4,6 @@ import FoodCategory from "@/components/HomePages/FoodCategory";
 import OurChefs from "@/components/HomePages/OurChefs";
 import ChooseFromMenu from "@/components/HomePages/HomeMenu";
 import Aboutus from "@/components/HomePages/AboutUs";
-import TestimonialsSection from "@/components/HomePages/Testimonial";
 import BlogPost from "@/components/HomePages/BlogPosts";
 import { client } from '@/sanity/lib/client'
 import Review from "@/components/Review";
