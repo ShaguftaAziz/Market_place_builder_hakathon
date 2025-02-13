@@ -5,7 +5,7 @@ import OurChefs from "@/components/HomePages/OurChefs";
 import ChooseFromMenu from "@/components/HomePages/HomeMenu";
 import Aboutus from "@/components/HomePages/AboutUs";
 import BlogPost from "@/components/HomePages/BlogPosts";
-import TestimonialsSection from '@/components/TestimonialsSection';
+//import TestimonialsSection from '@/components/TestimonialsSection';
 //import { client } from '@/sanity/lib/client'
 //import Review from "@/components/Review";
 
@@ -27,8 +27,8 @@ const Home = () => {
       {/* Our Chefs component to display the chefs */}
       <OurChefs />
 
-      {/* Testimonial component to display testimonial section */}
-      <TestimonialsSection />
+     // {/* Testimonial component to display testimonial section */}
+    //  <TestimonialsSection />
 
       {/* Blog post component to display blog posts */}
       <BlogPost />
