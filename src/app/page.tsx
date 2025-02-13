@@ -1,4 +1,4 @@
-import AboutUs from "@/components/AboutUs";
+//import AboutUs from "@/components/AboutUs";
 //import HomeHero from "@/components/HomeHero";
 //import HomeMenu from "@/components/HomeMenu";
 import Navbar from "@/components/Navbar";
@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
 import Review from "@/components/Review";
-import FoodCategory from "@/components/FoodCategory";
+//import FoodCategory from "@/components/FoodCategory";
 import BlogPosts from "@/components/BlogPosts";
 
 export default function Home() {
