@@ -30,7 +30,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ image, date, title, price }) => (
   </li>
 );
 
-const ChooseFromMenu = () => {
+const HomeMenu = () => {
   const menuItems = [
    { image: '/homeManu1.png', date: '20 Feb 2022', title: 'Keep Your Business in restaurant', price: '12.50' },
    { image: '/homeManu2.png', date: '20 Feb 2022', title: 'Keep Your Business in hotel view', price: '14.90' },
