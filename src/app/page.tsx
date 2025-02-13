@@ -2,7 +2,7 @@ import React from "react";
 import HomePage from "@/components/HomePages/HomeHero";
 import FoodCategory from "@/components/HomePages/FoodCategory";
 import OurChefs from "@/components/HomePages/OurChefs";
-import ChooseFromMenu from "@/components/HomePages/HomeMenu";
+import HomeMenu from "@/components/HomePages/HomeMenu";
 import Aboutus from "@/components/HomePages/AboutUs";
 import BlogPost from "@/components/HomePages/BlogPosts";
 //import TestimonialsSection from '@/components/TestimonialsSection';
@@ -21,8 +21,8 @@ const Home = () => {
       {/* Categories component to display various categories */}
       <FoodCategory />
 
-      {/* Choose from menu component to display menu items */}
-      <ChooseFromMenu />
+      {/* HomeMenu component to display menu items */}
+      <HomeMenu />
 
       {/* Our Chefs component to display the chefs */}
       <OurChefs />
