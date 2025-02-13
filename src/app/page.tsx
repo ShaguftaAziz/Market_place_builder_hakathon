@@ -1,6 +1,6 @@
 import AboutUs from "@/components/AboutUs";
-import HomeHero from "@/components/HomeHero";
-import HomeMenu from "@/components/HomeMenu";
+//import HomeHero from "@/components/HomeHero";
+//import HomeMenu from "@/components/HomeMenu";
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
