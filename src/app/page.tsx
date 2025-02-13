@@ -1,4 +1,4 @@
-import AbountUs from "@/components/AboutUs";
+import AboutUs from "@/components/AboutUs";
 import HomeHero from "@/components/HomeHero";
 import HomeMenu from "@/components/HomeMenu";
 import Navbar from "@/components/Navbar";
@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div className="bg-[#0D0D0D]">
       <Navbar />
-      <Hero />
+      <HomeHero />
       <AboutUs />
       <FoodCategory />
 
