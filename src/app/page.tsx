@@ -1,5 +1,5 @@
 import AbountUs from "@/components/AboutUs";
-import Hero from "@/components/Hero";
+import HomeHero from "@/components/HomeHero";
 import HomeMenu from "@/components/HomeMenu";
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
