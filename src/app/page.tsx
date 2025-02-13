@@ -1,13 +1,13 @@
 import AbountUs from "@/components/AboutUs";
 import Hero from "@/components/Hero";
-import MenuSec from "@/components/Menu";
+import HomeMenu from "@/components/HomeMenu";
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
 import Review from "@/components/Review";
-import FoodSection from "@/components/FoodCategory";
-import BlogPage from "@/components/BlogPosts";
+import FoodCategory from "@/components/FoodCategory";
+import BlogPosts from "@/components/BlogPosts";
 
 export default function Home() {
 
