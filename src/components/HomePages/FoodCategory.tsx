@@ -45,4 +45,4 @@ const FoodCategory = () => {
   )
 }
 
-export default FoodCategory
+export default FoodCategory;
