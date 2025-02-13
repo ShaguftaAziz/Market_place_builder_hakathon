@@ -21,10 +21,10 @@ export default function Home() {
     <div className="bg-[#0D0D0D]">
       <Navbar />
       <Hero />
-      <AbountUs />
-      <FoodSection />
+      <AboutUs />
+      <FoodCategory />
 
-      <MenuSec />
+      <HomeMenu />
 
       <section className=" px-4 md:px-[135px] max-w-[1320px] mx-auto py-[50px]">
         {/* Heading Section */}
