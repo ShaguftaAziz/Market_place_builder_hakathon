@@ -1,13 +1,13 @@
-//import AboutUs from "@/components/AboutUs";
-//import HomeHero from "@/components/HomeHero";
-//import HomeMenu from "@/components/HomeMenu";
+//import AboutUs from "@/components/HomePage/AboutUs";
+//import HomeHero from "@/components/HomePage/HomeHero";
+//import HomeMenu from "@/components/HomePage/HomeMenu";
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
 import Review from "@/components/Review";
-//import FoodCategory from "@/components/FoodCategory";
-import BlogPosts from "@/components/BlogPosts";
+//import FoodCategory from "@/components/HomePage/FoodCategory";
+import BlogPosts from "@/components/HomePage/BlogPosts";
 
 export default function Home() {
 
