@@ -1,4 +1,4 @@
-// src/componets/HomePages/BlogPosts.tsx
+src/componets/HomePages/BlogPosts.tsx
 import React from 'react';
 import { Great_Vibes } from "next/font/google";
 import Image from 'next/image';
