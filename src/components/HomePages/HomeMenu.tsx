@@ -1,4 +1,4 @@
-src/componets/HomePages/HomeMenu.tsx
+// src/componets/HomePages/Homemenu.tsx
 import React from 'react';
 import { Great_Vibes } from 'next/font/google';
 import Image from 'next/image';
@@ -115,4 +115,4 @@ const HomeMenu = () => {
   );
 };
 
-export default HomeMenu;
+export default ChooseFromMenu;
