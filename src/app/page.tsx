@@ -2,7 +2,7 @@
 // src/app/page.tsx
 import React from "react";
 import HomePage from "@/components/HomePages/HomeHero";
-import FoodCategory from "@/components/HomePages/FoodCategery";
+import FoodCategory from "@/components/HomePages/FoodCategory";
 import OurChefs from "@/components/HomePages/OurChefs";
 import ChooseFromMenu from "@/components/HomePages/HomeMenu";
 import Aboutus from "@/components/HomePages/AboutUs";
